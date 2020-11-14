@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen DOM</title>
+    <script type="text/javascript" src="sandbox.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p>Usando DOM y formularios</p>
+    <p>Nombre: </p>
+    <p>Numero de control: </p>
+    <!--Agregue manualmente un formulario que permita agregar nombres de personajes favoritos, abajo del 3er párrafo. (10 puntos)-->
+    <form action="">
+        <label for="inputPersonajes" id="lblPersonajes">Personajes Favoritos:</label>
+        <input type="text" id="inputPersonajes" placeholder="Personajes">
+        <input type="button" value="Agregar" onclick="addPerso()">
+    </form>
+    <p>Personajes Favoritos</p>
+    <p>Peliculas favoritas</p>
+    <ol>
+        <li>Shrek</li>
+        <li>Un mundo feliz</li>
+        <li>La vida inútil de Pito Pérez</li>
+        <li>El club de la pelea</li>
+    </ol>
+
+    <!--Agregue los elementos y scripts necesarios para que mediante el uso de controles, el usuario seleccione y elimine las películas que desee. (15 puntos)-->
+    <p>Eliminar Peliculas Favoritas por Numero</p>
+    <label for="inputPelicula" id="lblPelicula">Pelicula a Borrar:</label>
+    <input type="number" id="inputPelicula" value=1 min="1" max="8">
+    <input type="button" value="Eliminar" onclick="deletePeli()">
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+input[type="button"] {
+    width: 4rem;
+    display: inline;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+li {
+    font-family: sans-serif;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+#inputPelicula {
+    width: 25px;
+}
+
+#title {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+
+body {
+    background-color: lightpink;
+}
